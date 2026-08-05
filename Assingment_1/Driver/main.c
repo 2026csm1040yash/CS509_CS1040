@@ -12,7 +12,7 @@ int main()
     int M, K, N;
     int i, j;
 
-    fp = fopen("Testcases/gemm_test_cases/gemm_test_case_90x100_100x110.txt", "r");
+    fp = fopen("Testcases/gemm_test_cases/gemm_test_case_256x256_256x256.txt", "r");
 
     if (fp == NULL)
     {
@@ -54,9 +54,9 @@ int main()
 
 for (int run = 0; run < 1000; run++)
 {
-    // gemm(M, K, N, A, B, C);
+    gemm(M, K, N, A, B, C);
     // /* OR
-      gemm_blocking(M, K, N, A, B, C);
+    //   gemm_blocking(M, K, N, A, B, C);
     // */
 }
 
