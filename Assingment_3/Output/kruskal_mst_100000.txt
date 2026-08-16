@@ -1,0 +1,4 @@
+MST total weight: 2300466
+MST edges: 99999
+Connected graph: true
+Execution time: 50.000000 ms
